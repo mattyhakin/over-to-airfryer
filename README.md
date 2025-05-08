@@ -12,10 +12,24 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)]()
 [![Repo Stars](https://img.shields.io/github/stars/mattyhakin/over-to-airfryer?style=flat-square)](https://github.com/mattyhakin/over-to-airfryer/stargazers)
 [![Repo Issues](https://img.shields.io/github/issues/mattyhakin/over-to-airfryer?style=flat-square)](https://github.com/mattyhakin/over-to-airfryer/issues)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=mattyhakin.over-to-airfryer)
 
 ---
 
 A simple, responsive web app that converts conventional oven temperatures and times into air fryer equivalents. Supports both Celsius and Fahrenheit.
+
+---
+
+## 📚 Table of Contents
+- [Version](#-version)
+- [Features](#-features)
+- [Installable as a PWA](#-installable-as-a-pwa)
+- [Live Demo](#-live-demo)
+- [Conversion Rules](#-conversion-rules)
+- [How to Use](#-how-to-use)
+- [License](#-license)
+- [Preview](#-preview)
+- [Credits](#-credits)
 
 ---
 
@@ -41,6 +55,8 @@ Current release: **v1.2.0**
 You can now add the app to your home screen on mobile or desktop.
 
 The app works offline after your first visit — perfect for kitchens with spotty Wi-Fi.
+
+> ⌨️ Tip: Press `Ctrl + D` to bookmark the web app for quick access.
 
 ---
 
@@ -71,3 +87,10 @@ This project is licensed under the [MIT License](LICENSE).
 ### 📷 Preview
 
 ![Mascot with air fryer](mascot.png)
+
+---
+
+### 🙏 Credits
+Built by [@mattyhakin](https://github.com/mattyhakin)  
+Inspired by personal needs + kitchen frustrations 🍳🔥
+
