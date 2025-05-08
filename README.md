@@ -6,6 +6,7 @@
 [![Live Demo](https://img.shields.io/badge/demo-online-brightgreen?style=flat-square&logo=githubpages)](https://mattyhakin.github.io/over-to-airfryer/)
 [![MIT License](https://img.shields.io/github/license/mattyhakin/over-to-airfryer?style=flat-square)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/mattyhakin/over-to-airfryer?style=flat-square)](https://github.com/mattyhakin/over-to-airfryer/releases)
+[![PWA Ready](https://img.shields.io/badge/PWA-ready-5cb85c?style=flat-square&logo=googlechrome&logoColor=white)]()
 [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)]()
@@ -19,7 +20,7 @@ A simple, responsive web app that converts conventional oven temperatures and ti
 ---
 
 ### 📌 Version
-Current release: **v1.1.0**  
+Current release: **v1.2.0**  
 [View the Roadmap](./ROADMAP.md) • [Latest Release](https://github.com/mattyhakin/over-to-airfryer/releases)
 
 ---
@@ -29,10 +30,17 @@ Current release: **v1.1.0**
 - Input in Celsius or Fahrenheit
 - Outputs both °C and °F air fryer equivalents
 - Responsive design, mobile-friendly
-- Mascot illustration for friendly UI
-- SEO metadata and Twitter card integration
-- Rounded temperature values for real-world use
-- GitHub Pages ready
+- Updated mascot illustration
+- SEO metadata and social sharing
+- Rounded temperature values for realism
+- GitHub Pages deployment ready
+
+---
+
+### 📲 Installable as a PWA
+You can now add the app to your home screen on mobile or desktop.
+
+The app works offline after your first visit — perfect for kitchens with spotty Wi-Fi.
 
 ---
 
