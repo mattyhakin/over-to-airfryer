@@ -18,13 +18,21 @@ A simple, responsive web app that converts conventional oven temperatures and ti
 
 ---
 
+### 📌 Version
+Current release: **v1.1.0**  
+[View the Roadmap](./ROADMAP.md) • [Latest Release](https://github.com/mattyhakin/over-to-airfryer/releases)
+
+---
+
 ### 🔧 Features
 - Convert oven temp/time to air fryer settings
 - Input in Celsius or Fahrenheit
 - Outputs both °C and °F air fryer equivalents
 - Responsive design, mobile-friendly
-- Favicon and preview image for social sharing
+- Mascot illustration for friendly UI
 - SEO metadata and Twitter card integration
+- Rounded temperature values for real-world use
+- GitHub Pages ready
 
 ---
 
@@ -36,6 +44,7 @@ A simple, responsive web app that converts conventional oven temperatures and ti
 ### 🧠 Conversion Rules
 - Reduce oven temperature by ~25°F (~15°C)
 - Reduce oven time by ~20%
+- Result temperatures round to the nearest 10°C or 10°F
 
 ---
 
@@ -53,4 +62,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### 📷 Preview
 
-![Preview of Oven to Air Fryer Converter](og-preview.png)
+![Mascot with air fryer](mascot.png)

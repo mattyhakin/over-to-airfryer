@@ -6,44 +6,33 @@
   <title>Oven to Air Fryer Converter</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" />
-  <meta name="description" content="Convert oven temperatures and times to air fryer settings easily. Supports Celsius and Fahrenheit.">
-  <meta name="keywords" content="oven to air fryer, temperature converter, air fryer cooking">
-  <meta name="author" content="Your Name">
-  <meta property="og:title" content="Oven to Air Fryer Converter">
-  <meta property="og:description" content="Quickly convert oven temp/time to air fryer settings. Supports both Celsius and Fahrenheit.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourusername.github.io/oven-to-airfryer/">
-  <meta property="og:image" content="https://yourusername.github.io/oven-to-airfryer/og-preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Oven to Air Fryer Converter">
-  <meta name="twitter:description" content="Convert oven temperature & time to air fryer settings. Works with Celsius or Fahrenheit.">
-  <meta name="twitter:image" content="https://yourusername.github.io/oven-to-airfryer/og-preview.png">
 </head>
 <body>
   <div class="container">
-    <h1>Oven to Air Fryer Converter</h1>
-    <form id="converterForm">
-      <label for="unit">Unit:</label>
-      <select id="unit">
-        <option value="c">Celsius</option>
-        <option value="f">Fahrenheit</option>
-      </select>
-
-      <label for="ovenTemp">Oven Temperature:</label>
-      <input type="number" id="ovenTemp" required />
-
-      <label for="ovenTime">Oven Time (minutes):</label>
-      <input type="number" id="ovenTime" required />
-
-      <button type="submit">Convert</button>
-    </form>
-
-    <div id="results" class="hidden">
-      <h2>Air Fryer Settings</h2>
-      <p>Temperature: <span id="airTempC"></span> °C / <span id="airTempF"></span> °F</p>
-      <p>Time: <span id="airTime"></span> minutes</p>
+    <div class="content">
+      <div class="left">
+        <h1>Oven to Air Fryer Converter</h1>
+        <form id="converterForm">
+          <label for="unit">Unit:</label>
+          <select id="unit">
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+          </select>
+          <label for="ovenTemp">Oven Temperature:</label>
+          <input type="number" id="ovenTemp" required />
+          <label for="ovenTime">Oven Time (minutes):</label>
+          <input type="number" id="ovenTime" required />
+          <button type="submit">Convert</button>
+        </form>
+        <div id="results" class="hidden">
+          <h2>Air Fryer Settings</h2>
+          <p>Temperature: <span id="airTempC"></span> °C / <span id="airTempF"></span> °F</p>
+          <p>Time: <span id="airTime"></span> minutes</p>
+        </div>
+      </div>
+      <div class="right">
+        <img src="mascot.png" alt="Mascot with air fryer" class="side-image" />
+      </div>
     </div>
   </div>
   <script src="script.js"></script>

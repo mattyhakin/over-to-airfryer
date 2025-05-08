@@ -5,9 +5,9 @@ document.getElementById("converterForm").addEventListener("submit", function (e)
   const time = parseFloat(document.getElementById("ovenTime").value);
   if (!temp || !time) return;
   const tempF = unit === "c" ? (temp * 9) / 5 + 32 : temp;
-  const airTempF = Math.round(tempF - 25);
+  const airTempF = Math.round((tempF - 25) / 10) * 10;
   const airTime = Math.round(time * 0.8);
-  const airTempC = Math.round(((airTempF - 32) * 5) / 9);
+  const airTempC = Math.round((((airTempF - 32) * 5) / 9) / 10) * 10;
   document.getElementById("airTempC").textContent = airTempC;
   document.getElementById("airTempF").textContent = airTempF;
   document.getElementById("airTime").textContent = airTime;
