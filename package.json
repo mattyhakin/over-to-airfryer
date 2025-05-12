@@ -1,0 +1,20 @@
+{
+  "name": "oven-to-airfryer",
+  "version": "1.0.0",
+  "description": "Convert oven temperature and time to air fryer equivalents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "airfryer",
+    "converter",
+    "pwa"
+  ],
+  "author": "mattyhakin",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "type": "module"
+}
