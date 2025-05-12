@@ -16,8 +16,13 @@
   <meta name="twitter:title" content="Oven to Air Fryer Converter">
   <meta name="twitter:description" content="Convert oven temperature & time to air fryer settings. Works with Celsius or Fahrenheit.">
   <meta name="twitter:image" content="https://mattyhakin.github.io/over-to-airfryer/og-preview.png">
-  <link rel="icon" href="favicon.ico" />
+
+  <!-- ✅ CSS for layout and styling -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional PWA Support -->
   <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="favicon.ico" />
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js');
@@ -31,15 +36,15 @@
         <h1 id="heading">Oven to Air Fryer Converter</h1>
         <form id="converterForm">
           <label for="foodType" id="label-food">Food Type:</label>
-<select id="foodType">
-  <option value="default">Generic</option>
-  <option value="chicken">Chicken</option>
-  <option value="fries">Fries</option>
-  <option value="pastry">Pastry</option>
-  <option value="vegetables">Vegetables</option>
-</select>
+          <select id="foodType">
+            <option value="default">Generic</option>
+            <option value="chicken">Chicken</option>
+            <option value="fries">Fries</option>
+            <option value="pastry">Pastry</option>
+            <option value="vegetables">Vegetables</option>
+          </select>
 
-<label for="unit" id="label-unit">Unit:</label>
+          <label for="unit" id="label-unit">Unit:</label>
           <select id="unit">
             <option value="c">Celsius</option>
             <option value="f">Fahrenheit</option>
